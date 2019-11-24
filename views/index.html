@@ -5,17 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
+    <link rel="stylesheet" href="https://use.typekit.net/eaa3vfp.css">
     <link rel="stylesheet" href="css/style.css">
+    
     <title>Most Popular Dog Breeds of 2018 - Interactive Infographic</title>
 </head>
 <body>
     <h1 class="main-header">10 Most Popular Dog Breeds of 2018</h1>
     <main>
         <!-- if we were using a framework, these might be 6-col or something-->
-        <section id="beer1">
+        <section id="dog_select">
+            <div class="div_wrapper">
+                <object data="images/lab_icon.svg" type="image/svg+xml" class="svg-graphic" id="labrador"></object>
+                <span class="see-more" data-target="1">See More Info</span>
+            </div>
+            <div class="div_wrapper">
+                <object data="images/german_icon.svg" type="image/svg+xml" class="svg-graphic" id="german_shepherd"></object>
+                <span class="see-more" data-target="2">See More Info</span>
+            </div>
+            <div class="div_wrapper">
+                <object data="images/golden_icon.svg" type="image/svg+xml" class="svg-graphic" id="golden"></object>
+                <span class="see-more" data-target="3">See More Info</span>
+            </div>
+            <div class="div_wrapper">
+                <object data="images/french_icon.svg" type="image/svg+xml" class="svg-graphic" id="french_bulldog"></object>
+                <span class="see-more" data-target="4">See More Info</span>
+            </div>
+            <div class="div_wrapper">
+                <object data="images/bulldog_icon.svg" type="image/svg+xml" class="svg-graphic" id="bulldog"></object>
+                <span class="see-more" data-target="5">See More Info</span>
+            </div>  
+        </section>
+
+
+        <!-- <section id="beer1">
           <div class="label_wrapper">
             <h1 class="hidden">Plain old beer</h1>
-            <object data="images/bottleGraphic.svg" type="image/svg+xml" class="svg-graphic" id="bottle"></object>
+            <object data="images/lab_icon.svg" type="image/svg+xml" class="svg-graphic" id="bottle"></object>
             <span class="see-more" data-target="1">See More Info</span>
           </div>
 
@@ -28,9 +54,9 @@
               Possimus consequuntur amet illum ipsa laborum accusantium, dolor neque magnam ipsum, adipisci deserunt distinctio necessitatibus asperiores ad nulla? Repellendus nobis, eveniet perspiciatis. Quisquam molestiae beatae laborum quo impedit nobis quod.
             </p>
           </div>
-        </section>
+        </section> -->
 
-        <section id="beer2">
+        <!-- <section id="beer2">
           <div class="label_wrapper">
             <h1 class="hidden">Plain old beer</h1>
             <object data="images/beerBarrels.svg" type="image/svg+xml" class="svg-graphic" id="barrels"></object>
@@ -61,12 +87,12 @@
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem facere deleniti ipsam, aliquid ipsum, cum rem ut eos voluptate omnis consequuntur delectus ratione amet nobis laborum accusantium possimus odit quibusdam?
             </p>
           </div>
-        </section>
+        </section> -->
 
         <article class="popover">
-          <h4 class="ipa-rating">IPA Rating</h4>
-          <div class="ratings">Average Rating: </div>
-          <p class="beer-description"></p>
+          <h4 class="breed"></h4>
+          <p class="size"></p>
+          <p class="category"></p>
         </article>
     </main>
     <script src="js/main.js"></script>
