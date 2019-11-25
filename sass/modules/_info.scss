@@ -1,7 +1,7 @@
 .info {
     background-color: #18535b;
     margin-bottom: 2%;
-    height: 60vh;
+    height: 75vh;
     display: none;
     border-radius: 8px;
 }
@@ -13,6 +13,7 @@
 #name {
     padding: 5%;
     height: 40%;
+    width: 100%;
 }
 
 #name img {
@@ -36,21 +37,29 @@
 }
 
 .breedSection {
-    float: right;
+    float: left;
+    margin-left: 10%;
 }
 
 .breedSection img {
   width: 40%;
   padding-bottom: 0;
+  margin: 0;
+}
+
+.breedSection p {
+    margin: 0;
 }
 
 .infoSection {
   float: left;
+  width: 33%;
 }
 
 .infoSection p {
   color: #fff4bb;
   text-align: center;
+  margin: 0;
 }
 
 #personality {
@@ -76,7 +85,7 @@
   }
 
 
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 768px) {
 
     .info {
     margin-bottom: 1%;
@@ -86,6 +95,7 @@
     #name {
         padding: 3%;
         width: 40%;
+        height: 100%;
         float: left;
     }
 
@@ -107,6 +117,7 @@
 
     .breedSection {
         float: none;
+        margin-left: 0%;
     }
 
     .breedSection img {

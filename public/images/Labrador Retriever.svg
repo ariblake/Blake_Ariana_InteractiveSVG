@@ -14,6 +14,9 @@
 	.st8{fill:#BFB175;}
 	.st9{fill:#3A3429;}
 	.st10{opacity:0.25;}
+	<!-- #labrador { cursor: pointer; }
+
+	.yellow{fill: #ffff00;} -->
 </style>
 <g id="Labrador_x5F_Retriever">
 	<circle id="bckgrd_3_" class="st0" cx="166.01" cy="167.44" r="166.09"/>
@@ -71,4 +74,13 @@
 		</g>
 	</g>
 </g>
+<!-- <defs>
+	<script>
+		document.querySelector("#labrador").addEventListener("click", function() {
+			console.log('clicked on the SVG!', this.id);
+
+			this.querySelector("#bckgrd_3_").classList.toggle('yellow');
+		})
+	</script>
+</defs> -->
 </svg>
