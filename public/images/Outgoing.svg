@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 230.61 232" style="enable-background:new 0 0 230.61 232;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFF761;}
+	.st1{fill:#FF945F;}
+	.st2{fill:#18535B;}
+	.st3{opacity:0.25;}
+</style>
+<circle class="st0" cx="116.29" cy="116.1" r="112.02"/>
+<g id="outgoing">
+	<g>
+		<path class="st1" d="M112.44,51.77l-42.9,123.97c-0.72,2.09,0.83,4.26,3.03,4.26h85.8c2.21,0,3.76-2.17,3.03-4.26l-42.9-123.97
+			C117.51,48.89,113.43,48.89,112.44,51.77z"/>
+		<g>
+			<circle class="st2" cx="93.29" cy="155.64" r="5.22"/>
+			<circle class="st2" cx="94.16" cy="135.64" r="5.22"/>
+			<circle class="st2" cx="115.04" cy="164.34" r="5.22"/>
+			<circle class="st2" cx="121.13" cy="133.03" r="5.22"/>
+			<circle class="st2" cx="128.95" cy="113.89" r="5.22"/>
+			<circle class="st2" cx="109.82" cy="104.33" r="5.22"/>
+			<circle class="st2" cx="117.65" cy="76.49" r="5.22"/>
+			<circle class="st2" cx="115.91" cy="42.57" r="9.57"/>
+			<circle class="st2" cx="144.61" cy="166.95" r="5.22"/>
+			<circle class="st2" cx="134.17" cy="147.82" r="5.22"/>
+			<circle class="st2" cx="80.24" cy="171.3" r="5.22"/>
+		</g>
+	</g>
+	<g class="st3">
+		<path class="st1" d="M118.09,180h40.87c1.92,0,3.27-1.89,2.64-3.71L115.47,43l-0.18,0.51v133.7
+			C115.3,178.75,116.55,180,118.09,180z"/>
+		<g>
+			<path class="st2" d="M115.3,159.14v10.41c2.76-0.14,4.96-2.41,4.96-5.21C120.26,161.55,118.06,159.27,115.3,159.14z"/>
+			<circle class="st2" cx="121.13" cy="133.03" r="5.22"/>
+			<circle class="st2" cx="128.95" cy="113.89" r="5.22"/>
+			<path class="st2" d="M117.65,71.27c-0.85,0-1.64,0.21-2.35,0.56v9.31c0.71,0.36,1.5,0.56,2.35,0.56c2.88,0,5.22-2.34,5.22-5.22
+				C122.86,73.61,120.53,71.27,117.65,71.27z"/>
+			<path class="st2" d="M115.91,33c-0.21,0-0.41,0.02-0.61,0.03v19.07c0.2,0.01,0.4,0.03,0.61,0.03c5.28,0,9.57-4.28,9.57-9.57
+				S121.19,33,115.91,33z"/>
+			<circle class="st2" cx="144.61" cy="166.95" r="5.22"/>
+			<circle class="st2" cx="134.17" cy="147.82" r="5.22"/>
+		</g>
+	</g>
+</g>
+</svg>
