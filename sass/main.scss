@@ -1,0 +1,82 @@
+@import '_vars';
+@import 'modules/_dogselect';
+@import 'modules/_info';
+
+* { 
+    box-sizing: border-box; 
+}
+
+body { 
+  background-color: #fff4bb; 
+  color: black; 
+  font-family: cheap-pine-sans,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+h1 {
+  font-family: cheap-pine-sans,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  color: #18535b;
+  font-size: 2.8em;
+  margin: 0;
+  margin-bottom: -4%;
+  text-align: center;
+}
+
+h2 {
+    font-size: 1.2em;
+}
+
+p {
+  text-align: center;
+  color: black; 
+  font-size: 1em; 
+}
+
+main {
+  margin: 5%;
+}
+
+.buffer { 
+  min-height: 100vh 
+}
+
+.hidden { 
+  display: none; 
+}
+
+.show-popover { display: block; } 
+
+/* .beer-info { display: inline-block; vertical-align: top; padding: 30px; border: thin solid white; } */
+
+/* p > span { display: block; padding-bottom: 12px; } */
+
+/* .popover { 
+  display: none;
+  position: absolute;
+  top: 18%;
+  left: 110%;
+  background-color: orange;
+  width: 350px;
+  z-index: 1;
+  border-radius: 8px;
+  padding: 4px;
+} */
+
+
+@media screen and (min-width: 900px) {
+    h1 { 
+        font-size: 4em;
+      }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    p {
+        font-size: 1.5em; 
+    }
+}

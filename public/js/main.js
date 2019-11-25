@@ -4,6 +4,7 @@
         popOver = document.querySelector('.info');
 
     function buildPopover(dogstats, el) {
+        popOver.querySelector(".breedImg").src = `images/${dogstats.Breed}.svg`;
         popOver.querySelector(".breed").textContent = `${dogstats.ID}. ${dogstats.Breed}`;
         popOver.querySelector(".size").textContent = dogstats.Size;
         popOver.querySelector(".sizeImg").src = `images/${dogstats.Size}.svg`;
