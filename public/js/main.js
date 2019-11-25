@@ -1,5 +1,6 @@
 (() => {
     //try to get the object and do stuff with it
+    // const seeMoreButtons = document.querySelectorAll('.see-more'),
     const seeMoreButtons = document.querySelectorAll('.see-more'),
         popOver = document.querySelector('.info');
 
