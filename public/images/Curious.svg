@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 23.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 230.61 232" style="enable-background:new 0 0 230.61 232;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#FFF761;}
+	.st1{fill:#FF945F;}
+	.st2{fill:#FFFB5C;}
+	.st3{opacity:0.25;}
+</style>
+<circle class="st0" cx="116.2" cy="116.1" r="112.02"/>
+<g id="curious_1_">
+	<g>
+		<path class="st1" d="M124.24,46.41c-25.98,0-47.05,21.06-47.05,47.05c0,15.37,7.37,29.02,18.77,37.6l-29.45,56.06l13.1,6.88
+			l29.43-56.01c4.77,1.63,9.88,2.51,15.2,2.51c25.98,0,47.05-21.06,47.05-47.05S150.22,46.41,124.24,46.41z"/>
+		<circle class="st2" cx="124.24" cy="93.46" r="35.94"/>
+	</g>
+	<g class="st3">
+		<path class="st1" d="M124.24,46.41v94.09c25.98,0,47.05-21.06,47.05-47.05S150.22,46.41,124.24,46.41z"/>
+		<path class="st2" d="M124.24,57.51v71.89c19.85,0,35.94-16.09,35.94-35.94S144.09,57.51,124.24,57.51z"/>
+	</g>
+</g>
+</svg>

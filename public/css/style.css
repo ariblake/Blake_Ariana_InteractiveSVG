@@ -1,62 +1,141 @@
-* { box-sizing: border-box; }
+* { 
+    box-sizing: border-box; 
+  }
 
 h1 {
   font-family: cheap-pine-sans,sans-serif;
   font-weight: 400;
   font-style: normal;
+  color: #18535b;
+  margin: 0;
 }
 
-body { background-color: white; color: black; font-size: 14px; }
-
-.buffer { min-height: 100vh }
-
-main { padding: 40px; }
-
-section { margin-bottom: 100px; color: white; }
-
-/* section > div:not(.text-wrapper) {
-  width: 30%; display:
-  inline-block;
-  background-color: black;
+p {
   text-align: center;
-  padding: 20px;
-  position: relative;
-} */
+}
+
+body { 
+  background-color: #fff4bb; 
+  color: black; 
+  font-size: 14px; 
+  font-family: cheap-pine-sans,sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: center;
+}
+
+main {
+  margin: 5%;
+}
+
+.buffer { 
+  min-height: 100vh 
+}
+
+.dog_select {
+  width: 100%;
+  height: 20%;
+  background-color: #18535b;
+  margin-bottom: 0;
+  /* padding-left: 10%;
+  padding-right: 10%; */
+}
+
+.breed {
+  color: #fff4bb;
+  font-size: 3em;
+  text-align: center;
+}
+
+.info {
+  background-color: #18535b;
+  margin-bottom: 1%;
+  height: 55vh;
+  display: none;
+}
+
+.infoHelp {
+  text-align: center;
+}
+
+#name {
+  width: 40%;
+  float: left;
+}
+
+#breed {
+  background-color: #fff761;
+  width: 10%;
+  height: 100%;
+  float: left;
+  text-align: center;
+}
+
+.breedSection img {
+  width: 75%;
+}
+
+.infoSection {
+  float: left;
+  padding-left: 8%;
+}
+
+.infoSection p {
+  color: #fff4bb;
+  text-align: center;
+}
+
+#personality {
+  background-color: #18535b;
+  width: 50%;
+  height: 50%;
+  padding: 2%;
+  float: right;
+}
+
+#care {
+  background-color: #ff945f;
+  width: 50%;
+  height: 50%;
+  padding: 2%;
+  float: right;
+}
+
+.statImg {
+  width: 70%;
+}
 
 .div_wrapper {
   width: 15%;
   display: inline-block;
-  padding-left: 2%;
+  padding: .5%;
+  
+  margin-left: 1%;
+  margin-bottom: 0;
 }
 
-.text-wrapper {
-  display: inline-block;
-  vertical-align: top;
-  margin-left: 30px;
-  width: 65%;
+section p { 
+  color: black; 
+  width: 70%; 
+  font-size: 1.25rem; 
 }
 
-section h3 {
-  display: inline-block;
-  color: black;
-  font-family: 'brewery', sans-serif;
-  font-size: 2rem;
-  margin-bottom: 0
+.hidden { 
+  display: none; 
 }
-section p { color: black; width: 70%; font-size: 1.25rem; }
 
-.hidden { display: none; }
-
-.svg-graphic { width: 100%; }
+.svg-graphic { 
+  width: 100%; 
+}
 
 .main-header { 
   font-size: 3em;
   text-align: center;
 }
 
-.beer-info { display: inline-block; vertical-align: top; padding: 30px; border: thin solid white; }
+/* .beer-info { display: inline-block; vertical-align: top; padding: 30px; border: thin solid white; } */
 
-p > span { display: block; padding-bottom: 12px; }
+/* p > span { display: block; padding-bottom: 12px; } */
 
 /* .popover { 
   display: none;
@@ -70,13 +149,13 @@ p > span { display: block; padding-bottom: 12px; }
   padding: 4px;
 } */
 
-.show-popover { display: block; }
+ .show-popover { display: block; } 
 
-.see-more { 
+/* .see-more { 
   display: block; 
   padding: 12px 18px; 
   border-radius: 8px; 
   color: white; 
   background-color: salmon; 
   margin-top: 8px
-}
+} */
