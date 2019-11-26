@@ -85,7 +85,19 @@
   .statImg {
     width: 35%;
   }
+@media screen and (min-width: 600px) {
+  #name img {
+    width: 30%;
+}
 
+.breedSection {
+  margin-left: 15%;
+}
+
+.infoSection {
+  padding-top: 2%;
+}
+}
 
 @media screen and (min-width: 768px) {
 
