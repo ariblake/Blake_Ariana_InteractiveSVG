@@ -49,11 +49,13 @@
 
 .breedSection p {
     margin: 0;
+    color: #18535b;
 }
 
 .infoSection {
   float: left;
   width: 33%;
+  padding-top: 3%;
 }
 
 .infoSection p {
@@ -104,7 +106,7 @@
     }
 
     .breed {
-    font-size: 3em;
+    font-size: 2.6em;
     display: block;
     }
 
@@ -112,7 +114,7 @@
     width: 10%;
     height: 100%;
     float: left;
-    padding-top: 4%;
+    padding-top: 6%;
     }
 
     .breedSection {
@@ -127,6 +129,7 @@
     .infoSection {
     float: left;
     padding-left: 8%;
+    padding-top: 0%;
     }
 
     #personality {
