@@ -7,6 +7,7 @@ This is an assignment for MMED 3039. I have to build a responsive one page app t
 
 ## Built With
 
+* [SASS](https://sass-lang.com/) - Stylesheet Language
 * [Node.js](https://nodejs.org/en/) - JavaScript Run-time Environment
 * [NPM](https://www.npmjs.com/) - JavaScript Development Tools
 * [Express](http://expressjs.com/) - Web Framework for Node.js
@@ -16,6 +17,7 @@ This is an assignment for MMED 3039. I have to build a responsive one page app t
 
 - [x] Create and link a database containing infographic information
 - [x] Display data from database in the app
+- [x] Use SASS for styling
 - [x] Use Node and Express
 
 ## Installing
