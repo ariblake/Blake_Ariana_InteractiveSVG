@@ -50,22 +50,10 @@ main {
 
 .show-popover { display: block; } 
 
-/* .beer-info { display: inline-block; vertical-align: top; padding: 30px; border: thin solid white; } */
-
-/* p > span { display: block; padding-bottom: 12px; } */
-
-/* .popover { 
-  display: none;
-  position: absolute;
-  top: 18%;
-  left: 110%;
-  background-color: orange;
-  width: 350px;
-  z-index: 1;
-  border-radius: 8px;
-  padding: 4px;
-} */
-
+.subheader {
+    padding-top: 2%;
+    margin-bottom: -2%;
+}
 
 @media screen and (min-width: 900px) {
     h1 { 
